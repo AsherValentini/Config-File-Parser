@@ -7,4 +7,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(prog
 	src/main.cpp
+	src/config_parser.cpp
 )
