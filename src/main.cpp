@@ -5,7 +5,7 @@ int main(){
     
     ConfigParser parser; 
 
-    parser.parseFromFile("config.txt"); 
+    parser.parseFromFile("../src/config.txt"); 
 
     std::cout << "Host: " << parser.getValue("host") << std::endl;  
     std::cout << "Port: " << parser.getValue("port") << std::endl; 

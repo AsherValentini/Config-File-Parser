@@ -43,3 +43,11 @@ std::string ConfigParser::getValue(const std::string& key) const {
     }
     return {}; 
 }
+
+ConfigParser::ConfigParser() {
+    std::cout << "Default constructor called \n";
+}
+
+ConfigParser::~ConfigParser() {
+    std::cout << "Default destructor called \n";
+}
